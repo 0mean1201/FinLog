@@ -1,0 +1,92 @@
+# =====================
+# Flutter / Dart
+# =====================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/finlog/build/
+/finlog/coverage/
+*.iml
+
+# Drift 코드 생성 파일은 커밋 포함 (*.g.dart 제외하지 않음)
+
+# =====================
+# Android
+# =====================
+/finlog/android/local.properties
+/finlog/android/.gradle/
+/finlog/android/app/google-services.json
+/finlog/android/key.properties
+*.jks
+*.keystore
+
+# =====================
+# iOS
+# =====================
+/finlog/ios/Flutter/Flutter.framework
+/finlog/ios/Flutter/Flutter.podspec
+/finlog/ios/.symlinks/
+/finlog/ios/Flutter/App.framework
+/finlog/ios/Flutter/FlutterPluginRegistrant/
+/finlog/ios/Flutter/ephemeral/
+/finlog/ios/Pods/
+/finlog/ios/.generated/
+/finlog/ios/Runner/Assets.xcassets/LaunchImage.imageset/
+GoogleService-Info.plist
+
+# =====================
+# 보안 / 시크릿 (KIS API Key 등)
+# =====================
+.env
+.env.local
+.env.*.local
+secrets/
+*.key
+*.pem
+
+# =====================
+# IDE
+# =====================
+.idea/
+.vscode/settings.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =====================
+# OS
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# 루트 레벨 중복 파일 (이전 위치 — .github/ 하위로 이동됨)
+# =====================
+/PULL_REQUEST_TEMPLATE.md
+/bug_report.md
+/feature_request.md
+
+# =====================
+# 테스트 커버리지 / 로그
+# =====================
+/finlog/coverage/
+*.lcov
+*.log
+
+# =====================
+# Symbolication / Obfuscation
+# =====================
+app.*.symbols
+app.*.map.json
+
+# =====================
+# Android Studio 빌드 아티팩트
+# =====================
+/finlog/android/app/debug
+/finlog/android/app/profile
+/finlog/android/app/release
