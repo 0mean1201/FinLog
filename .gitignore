@@ -65,13 +65,6 @@ secrets/
 Thumbs.db
 
 # =====================
-# 루트 레벨 중복 파일 (이전 위치 — .github/ 하위로 이동됨)
-# =====================
-/PULL_REQUEST_TEMPLATE.md
-/bug_report.md
-/feature_request.md
-
-# =====================
 # 테스트 커버리지 / 로그
 # =====================
 /finlog/coverage/
